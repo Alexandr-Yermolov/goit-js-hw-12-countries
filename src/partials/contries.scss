@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 40px;
+}
+.input {
+  text-align: center;
+  width: 30em;
+  height: 40px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.country__list {
+  padding-left: 0px;
+}
+.countries__list-item {
+  font-style: italic;
+  font-size: 22px;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.country__name {
+  font-size: 22px;
+}
+.country__list-text {
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.language__name {
+  margin-top: 10px;
+  list-style: disc;
+  font-style: italic;
+}
+.country__image {
+  margin-top: 15px;
+  width: 30em;
+  height: 300px;
+}
